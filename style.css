@@ -8,9 +8,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     max-width: 1440px;
 }
+/* Container style */
 .container{
     padding: 30px 200px;
 }
+
+/* Header style start */
 .title{
     font-family: 'Playfair Display', serif;
     font-size: 40px;
@@ -29,11 +32,15 @@ body{
 .details{
     padding-right: 300px;
 }
+/* Header style end */
 
-
+/* Hero section style start */
 .hero-img{
     width: 800px;
 }
+/* Hero section style end */
+
+/* Ingredients section style start */
 .section-title{
     font-family: 'Playfair Display', serif;
     font-size: 24px;
@@ -58,6 +65,8 @@ body{
 #check-container{
     width: 500px;
 }
+
+/* Timing container style */
 #timing{
      border-radius:12px ;
      box-shadow:  0 0 0 2px rgb(255, 255, 255),
@@ -93,6 +102,11 @@ body{
 .active{
     color: #F2994A;
 }
+/* timing container style end */
+/* Ingredients style end*/
+
+
+/* Instructions section style start */
 #instructions{
     margin-top: 60px;
 }
@@ -114,7 +128,10 @@ body{
     justify-content: center;
     color: #ffffff;
 }
+/* Instructions section style end */
 
+
+/* Footer section style start  */
 #footer{
     text-align: center;
     margin-top: 100px;
@@ -130,7 +147,10 @@ body{
     font-weight: 700;
     color: #BDBDBD;
 }
+/* Footer section style end */
 
+
+/* Phone layout */
 @media screen and (max-width:600px) {
     .container{
         padding: 30px 20px;
