@@ -41,7 +41,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  --> If want to see demo then please follow this url(https://reliable-tulumba-9000dd.netlify.app/)
+  --> If want to see demo then please follow this url(https://voluble-medovik-c2d4b6.netlify.app)
 
 ### Built With
 
