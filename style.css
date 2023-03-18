@@ -37,6 +37,10 @@ body{
 .section-title{
     font-family: 'Playfair Display', serif;
     font-size: 24px;
+}
+#ingredients{
+    display: flex;
+    gap: 100px;
     margin-top: 40px;
 }
 .section-sub-title{
@@ -50,6 +54,47 @@ body{
     border: 1px solid #828282;
     margin-right: 5px;
     margin-bottom: 20px;
+}
+#check-container{
+    width: 500px;
+}
+#timing{
+     border-radius:12px ;
+     box-shadow:  0 0 0 2px rgb(255, 255, 255),
+     0.3em 0.3em 1em rgba(145, 142, 142, 0.3);
+     padding: 30px 40px;
+     height: fit-content;
+}
+.yields,.cook-time,.pre-time,.total-time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.fa-utensils{
+    color: #F2994A;
+    font-size: 30px;
+}
+.fa-clock{
+    font-size: 30px;
+    color: #4F4F4F;
+}
+.t-title{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    color:#BDBDBD ;
+}
+.quantity{
+    font-size: 14px;
+    font-weight: 500;
+}
+.active{
+    color: #F2994A;
+}
+#instructions{
+    margin-top: 60px;
 }
 .instruction{
     margin-top: 40px;
