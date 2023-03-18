@@ -130,3 +130,36 @@ body{
     font-weight: 700;
     color: #BDBDBD;
 }
+
+@media screen and (max-width:600px) {
+    .container{
+        padding: 30px 20px;
+    }
+    .title{
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .details{
+        margin-top: 15px;
+        padding-right: 0px;
+    }
+    .details-icon{
+        padding-top: 20px;
+    }
+    .hero-img{
+        width: 340px;
+    }
+    #ingredients{
+        flex-direction: column;
+    }
+    #check-container{
+        width: 355px;
+    }
+    #timing{
+        box-shadow:  none;
+        padding: 30px 40px;
+   }
+   #footer{
+    margin-top: 50px;
+}
+}
