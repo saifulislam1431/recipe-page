@@ -69,3 +69,19 @@ body{
     justify-content: center;
     color: #ffffff;
 }
+
+#footer{
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #BDBDBD;
+    line-height: 17px;
+}
+
+.link{
+    font-weight: 700;
+    color: #BDBDBD;
+}
